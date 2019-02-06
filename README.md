@@ -1,3 +1,6 @@
+![alt text](https://img.shields.io/travis/kleii/ci_workshop.svg)
+
+
 # Continuous Integration workshop
 
 This repository holds the sample application (written in Python, using the Flask micro-framework) which can be used
@@ -11,5 +14,3 @@ A PDF version of this workshop is also included in this repository.
 ## Contributing
 
 We welcome all Pull Requests or issues with feedback on how to improve the content of this workshop :)
-
-https://img.shields.io/travis/kleii/ci_workshop.svg
