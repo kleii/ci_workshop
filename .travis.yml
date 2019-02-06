@@ -18,7 +18,6 @@ script:
   - cd ~/travis
   - chmod +x geckodriver
   - export PATH=$PATH:~/travis/
-  - sudo ln -s ~/travis/geckodriver geckodriver
 
   - nosetests --with-coverage
 
