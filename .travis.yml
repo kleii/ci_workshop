@@ -18,7 +18,7 @@ script:
   - cd ~/travis
   - chmod +x geckodriver
   - export PATH=$PATH:~/travis/
-
+  - cd ~
   - nosetests --with-cov --cov-config .coveragerc
   
 after_success:
