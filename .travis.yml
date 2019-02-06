@@ -30,7 +30,7 @@ jobs:
       deploy:
         provider: heroku
         api_key:
-          secure: {insert secret here}
-        app: {your-app-name-here}
+          secure: Cgfcdt2xzNCuywVM92pXDqzody88kehw4jAbO+PEqznX4/q2X+Idj3iQt2FD8tUJiCnC8zQ4Ms6/xBuM4XPRR/V6Uj3KUCLAZutYIdiljLpF/o5Nq1l+tE9Z9bvSLReMvQ87OiPOz4066PwxyTR9jYvSrJ2CFWJFDTBg12iPfyHKWvV6+HINmjTbRdRWuCNCxZl9bR6nSgeTxJVpb0G/rxUhqhFdtmiV6lP6d7niGcwYdLpTVS47/n8QAcjVQkA/hVDn41QpgsdFO+nMeLn7yMrL/yD+87kPoSLQHFvpBqXblepjTLQ0eMW4xDBRpyEcCrHEoTuux+CMcGtOljb3y0Ow2q1+WIVV1mD2M5VYHLwzDiC68c3DKDu1sBMaz7SLdHrY/ntI8gBa99rrfhiXFRnTgMZyaQRoFUTGaiaxe68aQbIK1pBtUguDMJHtBV2pO0EMfEDYeUX6bTHgqsPtgjRddR9NRv67MGWnc1zv7mINhwAUuwrryVFVzkBRfyyio/kMFNHC/NdT97JiAYRJz36LCnkQMoDSZhPGJZ8vt91ZEVNNHMRGLMQ+mPX9PA2FgpjIQ4WqLbQLmn7Fm7k/fhNmfHuEY8il+65/zckR9gnzHXGggBs2HqlIK+1bOgptDLFb8LITwoHBI1jwMh3rDe9uUYrmpMi9NWJuJZf6whA=
+        app: open-source-coffeeshop
         on:
-          repo: {gh_username}/ci_workshop
+          repo: kleii/ci_workshop
