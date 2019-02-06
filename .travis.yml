@@ -13,7 +13,8 @@ install:
 script:
   - wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz
   - mkdir ~/travis
-  - tar xzf geckodriver-v0.24.0-linux64.tar.gz ~/travis
+  - tar xzf geckodriver-v0.24.0-linux64.tar.gz
+  - cp geckodriver ~/travis
   - cd ~/travis
   - chmod +x geckodriver
   - export PATH=$PATH:~/travis/
